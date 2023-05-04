@@ -26,25 +26,45 @@
     </header>
     <main>
       <h3>Like what I do? Contact Me.</h3>
-      <form action="">
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" placeholder="John" />
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" placeholder="Doe" /><br />
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="samplename123@gmail.com"
-        />
-        <br />
-        <br />
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" cols="30" rows="10">
-Enter your message here...</textarea
-        >
-      </form>
+      <section id="contact-form">
+        <article>
+          <form action="">
+            <label for="fname" id="fname-label"
+              >First Name:
+              <input type="text" id="fname" name="fname" placeholder="John" />
+            </label>
+
+            <label for="lname"
+              >Last Name:
+              <input type="text" id="lname" name="lname" placeholder="Doe" />
+            </label>
+            <br />
+            <label for="email"
+              >Email:
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="samplename123@gmail.com"
+              />
+            </label>
+
+            <label for="message" id="message-label">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="80"
+              rows="20"
+              placeholder="Enter your message here..."
+            ></textarea>
+
+            <div class="buttons">
+              <input type="submit" id="submit" />
+              <input type="reset" id="reset" value="Clear" />
+            </div>
+          </form>
+        </article>
+      </section>
     </main>
     <footer>
       <p>Content for the footer.</p>

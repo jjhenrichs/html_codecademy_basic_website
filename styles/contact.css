@@ -39,10 +39,66 @@ a {
   color: #fff;
 }
 
+/* Main */
+
 main {
   border: 1px solid red;
   margin: 10px 0px;
   padding: 10px;
+}
+
+form {
+  border: 1px solid black;
+  padding: 50px;
+  width: 700px;
+  position: relative;
+  margin: 0 auto;
+}
+
+label {
+  padding: 5px 20px 5px 5px;
+  margin-top: 10px;
+}
+
+#lname,
+#fname {
+  margin-left: 20px;
+  width: 200px;
+}
+
+#email {
+  margin-left: 20px;
+  width: 300px;
+}
+
+#message-label,
+#message {
+  display: block;
+}
+
+/* Buttons */
+
+.buttons {
+  text-align: center;
+  padding: 10px 0px 0px;
+  margin-top: 20px;
+}
+
+.buttons input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+#submit {
+  background-color: rgb(23, 218, 209);
+  color: #333;
+}
+
+#reset {
+  background-color: #333;
+  color: #fff;
 }
 
 /* Footer */
