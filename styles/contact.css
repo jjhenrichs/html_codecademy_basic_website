@@ -42,38 +42,58 @@ a {
 /* Main */
 
 main {
-  border: 1px solid red;
   margin: 10px 0px;
   padding: 10px;
+  background-color: #333;
 }
 
+h3 {
+  text-align: center;
+  color: #ccc;
+}
 form {
   border: 1px solid black;
   padding: 50px;
   width: 700px;
   position: relative;
   margin: 0 auto;
+  background-color: #ccc;
 }
 
 label {
-  padding: 5px 20px 5px 5px;
+  padding: 5px;
   margin-top: 10px;
 }
 
+/* Name block */
+
 #lname,
 #fname {
-  margin-left: 20px;
+  margin: 5px;
+  padding: 2px;
+}
+
+#first-name {
+  width: 100px;
+}
+
+#lname {
   width: 200px;
 }
 
+/* Email */
+
 #email {
-  margin-left: 20px;
+  margin: 10px 0px 5px 0px;
   width: 300px;
 }
+
+/* Messsage textbox */
 
 #message-label,
 #message {
   display: block;
+  resize: none; /* Preventsthe user from resizing the message textarea */
 }
 
 /* Buttons */
