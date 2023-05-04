@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -15,13 +16,14 @@ nav {
 ul {
 }
 
-li {
+nav ul li {
   display: inline;
   border: 1px solid black;
   border-radius: 5px;
   margin: 5px;
   padding: 5px 7px;
 }
+
 li a {
   color: #333;
 }
