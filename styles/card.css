@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+#t-cards,
+#p-cards {
+  position: relative;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+  z-index: 20;
+  margin: 10px 50px;
+}
