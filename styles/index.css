@@ -13,9 +13,6 @@ nav {
   padding: 1px 0px;
 }
 
-ul {
-}
-
 nav ul li {
   display: inline;
   border: 1px solid black;
@@ -23,11 +20,22 @@ nav ul li {
   margin: 5px;
   padding: 5px 7px;
 }
+
 li a {
+  text-decoration: none;
   color: #333;
 }
-a {
-  text-decoration: none;
+
+nav ul li:hover {
+  background-color: rgb(38, 171, 157);
+}
+
+nav ul li:active {
+  background-color: #333;
+}
+
+nav ul li:active a {
+  color: #fff;
 }
 
 #home {

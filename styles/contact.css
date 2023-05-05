@@ -13,9 +13,6 @@ nav {
   padding: 1px 0px;
 }
 
-ul {
-}
-
 li {
   display: inline;
   border: 1px solid black;
@@ -23,11 +20,10 @@ li {
   margin: 5px;
   padding: 5px 7px;
 }
-li a {
-  color: #333;
-}
+
 a {
   text-decoration: none;
+  color: #333;
 }
 
 #contact {
@@ -36,6 +32,18 @@ a {
 }
 
 #contact a {
+  color: #fff;
+}
+
+nav ul li:hover {
+  background-color: rgb(38, 171, 157);
+}
+
+nav ul li:active {
+  background-color: #333;
+}
+
+nav ul li:active a {
   color: #fff;
 }
 
@@ -93,7 +101,7 @@ label {
 #message-label,
 #message {
   display: block;
-  resize: none; /* Preventsthe user from resizing the message textarea */
+  resize: none; /* Prevents the user from resizing the message textarea */
 }
 
 /* Buttons */

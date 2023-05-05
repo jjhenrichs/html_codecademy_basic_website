@@ -13,9 +13,6 @@ nav {
   padding: 1px 0px;
 }
 
-ul {
-}
-
 nav ul li {
   display: inline;
   border: 1px solid black;
@@ -37,6 +34,17 @@ a {
 }
 
 #about a {
+  color: #fff;
+}
+nav ul li:hover {
+  background-color: rgb(38, 171, 157);
+}
+
+nav ul li:active {
+  background-color: #333;
+}
+
+nav ul li:active a {
   color: #fff;
 }
 
